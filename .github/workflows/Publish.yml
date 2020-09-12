@@ -26,4 +26,3 @@ jobs:
             pyinstaller main.py
       - name: Add to release
         uses: actions/upload-artifact@v2
-        with:
