@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyinstaller
       - name: build with pyinstaller
-          run: |
-            pyinstaller main.py
+        run: |
+          pyinstaller main.py
       - name: Add to release
         uses: actions/upload-artifact@v2
