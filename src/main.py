@@ -1,4 +1,4 @@
-from My_Modules.Tools import Borderlands3ReadOnlyTool
+from src.My_Modules.Tools import Borderlands3ReadOnlyTool
 
 if __name__ == '__main__':
     test = Borderlands3ReadOnlyTool()
