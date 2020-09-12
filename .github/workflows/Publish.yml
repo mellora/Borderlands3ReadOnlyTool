@@ -23,7 +23,7 @@ jobs:
           pip install pyinstaller
       - name: build with pyinstaller
         run: |
-          pyinstaller main.py
+          pyinstaller src/main.py
       - name: Add to release
         uses: actions/upload-artifact@v2
 
