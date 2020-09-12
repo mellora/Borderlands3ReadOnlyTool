@@ -13,10 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Pachage Application
+      - name: Package Application
         uses: JackMcKew/pyinstaller-action-windows@main
-        with:
-            path: src
+        
       - uses: actions/upload-artifact@v2
         with:
             name: Borderlands3ReadOnlyTool.exe
