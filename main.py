@@ -1,5 +1,5 @@
-import os
-import stat
+from My_Modules.Tools import Borderlands3ReadOnlyTool
 
 if __name__ == '__main__':
-    print("Test")
+    test = Borderlands3ReadOnlyTool()
+    print(test.get_saves())
