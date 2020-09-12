@@ -29,5 +29,5 @@ jobs:
 
         with:
             name: Borderlands3ReadOnlyTool.exe
-            path: src/dist/windows
+            path: build/main/
 
